@@ -27,11 +27,11 @@ Shell
 Storage management/filesystem
 
 ## Contributors: 
-- Ember2819 (Founder & Manager)
+- **Ember2819** (Founder & Manager)
 - Sifi11 (Founder)
 - Crim (OG)
 - CheeseFunnel23 (RIP I think someone deleted alot of what u did. Pls come back u were cooking)
-- bonk enjoyer/dorito girl (Bootloader Creator)
+- **bonk enjoyer/dorito girl** (Bootloader Creator)
 - KaleidoscopeOld5841 (Uses Arch BTW)
 - TheGirl790 (OG)
 - kotofyt
