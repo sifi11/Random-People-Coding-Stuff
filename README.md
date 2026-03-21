@@ -18,6 +18,44 @@ You can apply your contributions to the main project in two ways:
 
 If you contribute at all in any way to the project, please add your name to the list in the README or main.c file. I highly recommend using Github to make changes as codeshare is difficult to work on multiple files and is very disorganized at the moment. I would like to make codeshare more of a note and planning page as well as a place to gather names rather than a place where we are actually working on code to improve effeciency.
 
+
+# How do I compile and run this project?
+
+**NOTE: THESE INSTRUCTIONS ARE TARGETING LINUX BASED SYSTEMS, IF YOU DON'T USE LINUX THEN INSTALL LINUX ON A VIRTUAL MACHINE TO FOLLOW THESE**
+
+### Step 1 - Install required build tools
+I am using Ubuntu for this guide, the following command will install the required tools on any Ubuntu based distro
+
+`sudo apt install build-essential binutils nasm clang qemu-system-x86`
+
+This installs:
+ - NASM (for assembling the bootloader)
+ - LD (the GNU linker for linking the code into one image)
+ - Clang (for compiling the C code)
+ - GCC (backup compiler, same use as Clang)
+ - Make (for automating all the commands needed)
+ - QEMU (emulator, for testing the OS)
+
+If you are not using an Ubuntu based distro then use any equivalent command for your distro's package manager, these tools should be easily available for all distros.
+
+### Step 2 - Building the OS
+This process will work on any Linux distro as long as you have the previously stated dependencies installed
+
+There are 2 commands you can use for this:
+
+`make all` - This produces an os.img file
+
+`make run` - This produces an os.img file (like the make all command) but it also runs the img file in qemu so you can test it out.
+
+# Other details
+
+## Contact (If you want to be a point of contact email me and then you can add your email here)
+elroylilly@gmail.com for any questions
+
+## Pictures
+
+<img width="1920" height="1080" alt="theosbooted" src="https://github.com/user-attachments/assets/498e0981-27eb-4e7d-a306-26bc7ed75c6f" />
+
 ## TO-DO
 - Create a command system
 - Implement shell (First fix printing and typing bugs. Line wraps act weird and backspace and shift are broken)
@@ -35,13 +73,6 @@ If you contribute at all in any way to the project, please add your name to the 
 - Package Manager
 - First Official Release
 
-## Contact (If you want to be a point of contact email me and then you can add you email here)
-elroylilly@gmail.com for any questions
-
-## Pictures
-
-<img width="1920" height="1080" alt="theosbooted" src="https://github.com/user-attachments/assets/498e0981-27eb-4e7d-a306-26bc7ed75c6f" />
-
 ## Contributors: 
 - **Ember2819** (Founder & Manager)
 - Sifi11 (Founder)
@@ -55,3 +86,4 @@ elroylilly@gmail.com for any questions
 - xtn59
 - c-bass
 - u/EastConsequence3792
+
